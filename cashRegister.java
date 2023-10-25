@@ -47,6 +47,7 @@ public class cashRegister {
 
         List<CurrencyUnit> changeList = new ArrayList<>();
         // (Réduisez le changement en utilisant les billets et les pièces du tiroir-caisse ici)
+        
 
         if (changeList.isEmpty() || change > 0.0) {
             output.status = "INSUFFICIENT_FUNDS";
